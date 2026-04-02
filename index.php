@@ -23,6 +23,10 @@ include 'header.php';
             </div>
         </div>
     </section>
+
+    <?php include 'sections/services.php'; ?>
+    <?php include 'sections/portfolio.php'; ?>
+    <?php include 'sections/contact.php'; ?>
 </main>
 
 <?php
