@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <!-- Nasz główny styl -->
     <link rel="stylesheet" href="style.css">
+    <!-- Favicon wygenerowana w stylu NexGen -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
 </head>
 <body>
     <!-- Nawigacja -->
