@@ -3,7 +3,7 @@
     <div class="container contact-container">
         <div class="contact-text reveal-text">
             <h2 class="text-gradient">Zacznijmy projekt.</h2>
-            <p>Napisz do nas. Odpowiemy w ciągu 24 godzin z pomysłem na Twoją obecność w sieci.</p>
+            <p>Napisz do mnie. Odpowiem w ciągu 24 godzin z pomysłem na Twoją obecność w sieci.</p>
         </div>
         
         <div class="contact-form-wrapper reveal-text delay-1">

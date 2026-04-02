@@ -14,7 +14,7 @@ include 'header.php';
                 <span class="text-gradient">Teraz.</span>
             </h1>
             <p class="hero-subtitle reveal-text delay-1">
-                Zajebiste strony internetowe dla firm, które chcą wyglądać jak liderzy z Doliny Krzemowej. 
+                Super strony internetowe dla firm, które chcą wyglądać jak liderzy z Doliny Krzemowej. 
                 Płynne animacje, potężna optymalizacja i design, który sprzedaje.
             </p>
             <div class="hero-actions reveal-text delay-2">
