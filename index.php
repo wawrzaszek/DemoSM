@@ -1,5 +1,27 @@
 <?php
 // Główne wejście do aplikacji - używamy PHP do budowy modularnej
+
+// Obsługa formularza kontaktowego
+$status = "";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = htmlspecialchars($_POST['name'] ?? '');
+    $email = htmlspecialchars($_POST['email'] ?? '');
+    $message = htmlspecialchars($_POST['message'] ?? '');
+
+    if (!empty($name) && !empty($email) && !empty($message)) {
+        // Zapis do lokalnego pliku (fallback/logi)
+        $log_entry = "[" . date("Y-m-d H:i:s") . "] Name: $name, Email: $email, Message: $message\n";
+        file_put_contents("submissions.log", $log_entry, FILE_APPEND);
+        
+        // TODO: Tutaj trafi funkcja wysyłająca powiadomienie po podaniu przez użytkownika adresu
+        // notify_user($name, $email, $message);
+        
+        $status = "success";
+    } else {
+        $status = "error";
+    }
+}
+
 // Dołączamy nagłówek strony
 include 'header.php';
 ?>
