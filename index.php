@@ -40,8 +40,8 @@ include 'header.php';
                 Płynne animacje, potężna optymalizacja i design, który sprzedaje.
             </p>
             <div class="hero-actions reveal-text delay-2">
-                <a href="#portfolio" class="btn-primary magnetic-btn">Zobacz nasze prace</a>
-                <a href="#services" class="btn-secondary">Nasze usługi</a>
+                <a href="#portfolio" class="btn-primary magnetic-btn">Zobacz moje prace</a>
+                <a href="#services" class="btn-secondary">Moje usługi</a>
             </div>
         </div>
     </section>

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Optymalizacja pod kątem wyszukiwarek (SEO) -->
-    <title>NexGen | Twórcy Nowoczesnych Doświadczeń Webowych</title>
-    <meta name="description" content="Tworzymy strony internetowe zjawiskowe jak produkty największych firm technologicznych. Poznaj potęgę świetnego designu.">
+    <title>NexGen | Twórca Nowoczesnych Doświadczeń Webowych</title>
+    <meta name="description" content="Tworzę strony internetowe zjawiskowe jak produkty największych firm technologicznych. Poznaj potęgę świetnego designu.">
     <!-- Podłączenie fontu Inter (w stylu Apple / Nowoczesnym) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

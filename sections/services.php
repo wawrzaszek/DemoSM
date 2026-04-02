@@ -2,8 +2,8 @@
 <section id="services" class="services section-padding">
     <div class="container">
         <div class="section-header reveal-text">
-            <h2>Nasza Ekspertyza</h2>
-            <p class="section-subtitle">Dostarczamy rozwiązania, które przesuwają granice możliwości webowych.</p>
+            <h2>Moja Ekspertyza</h2>
+            <p class="section-subtitle">Dostarczam rozwiązania, które przesuwają granice możliwości webowych.</p>
         </div>
         
         <div class="services-grid">

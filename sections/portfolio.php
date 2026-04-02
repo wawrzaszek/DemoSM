@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-header reveal-text">
             <h2>Wybrane Realizacje</h2>
-            <p class="section-subtitle">Wizualne wizytówki, które udowadniają, że nie idziemy na kompromisy.</p>
+            <p class="section-subtitle">Wizualne wizytówki, które udowadniają, że nie idę na kompromisy.</p>
         </div>
         
         <div class="portfolio-grid">
