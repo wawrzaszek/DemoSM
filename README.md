@@ -1,7 +1,4 @@
 # NexGen - Premium Portfolio Demo
-[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://nextgensm.netlify.app)
-
-**Live Demo:** [nextgensm.netlify.app](https://nextgensm.netlify.app)
 
 Projekt demonstracyjny luksusowej strony internetowej typu "One-Page Portfolio" dla twórcy zajmującego się nowoczesnym Web Designem. Projekt wyróżnia się potężną płynnością, dużą ilością przestrzeni, wyrafinowaną typografią (styl Apple / Dolina Krzemowa) i "żywymi", magnetycznymi interfejsami.
 
