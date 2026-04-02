@@ -7,27 +7,27 @@
         </div>
         
         <div class="portfolio-grid">
-            <!-- Projekt 1: Silownia26 -->
+            <!-- Projekt 1: FORGE -->
             <a href="https://github.com/wawrzaszek/silownia26" target="_blank" class="portfolio-item-link">
                 <div class="portfolio-item reveal-text">
                     <div class="portfolio-image-wrapper">
-                        <img src="assets/gym.png" alt="Silownia26" class="portfolio-img">
+                        <img src="assets/gym.png" alt="FORGE" class="portfolio-img">
                     </div>
                     <div class="portfolio-info">
-                        <h3>Silownia26</h3>
+                        <h3>FORGE</h3>
                         <p>Inteligentny asystent treningowy</p>
                     </div>
                 </div>
             </a>
             
-            <!-- Projekt 2: SkyCast -->
+            <!-- Projekt 2: Weather App -->
             <a href="https://698329e05edb4e17cca0fda3--delightful-entremet-3224db.netlify.app/" target="_blank" class="portfolio-item-link">
                 <div class="portfolio-item reveal-text delay-1">
                     <div class="portfolio-image-wrapper">
-                        <img src="assets/weather.png" alt="SkyCast" class="portfolio-img">
+                        <img src="assets/weather.png" alt="Weather App" class="portfolio-img">
                     </div>
                     <div class="portfolio-info">
-                        <h3>SkyCast</h3>
+                        <h3>Weather App</h3>
                         <p>Nowoczesna prognoza pogody</p>
                     </div>
                 </div>
