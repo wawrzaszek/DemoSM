@@ -7,27 +7,31 @@
         </div>
         
         <div class="portfolio-grid">
-            <!-- Projekt 1 -->
-            <div class="portfolio-item reveal-text">
-                <div class="portfolio-image-wrapper">
-                    <!-- Miejsce na generowany uzywajac CSS / Placeholder -->
-                    <div class="portfolio-placeholder abstract-bg-1"></div>
+            <!-- Projekt 1: Silownia26 -->
+            <a href="https://github.com/wawrzaszek/silownia26" target="_blank" class="portfolio-item-link">
+                <div class="portfolio-item reveal-text">
+                    <div class="portfolio-image-wrapper">
+                        <img src="assets/gym.png" alt="Silownia26" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Silownia26</h3>
+                        <p>Inteligentny asystent treningowy</p>
+                    </div>
                 </div>
-                <div class="portfolio-info">
-                    <h3>Fintech X App</h3>
-                    <p>Aplikacja Bankowa / Web Design</p>
+            </a>
+            
+            <!-- Projekt 2: SkyCast -->
+            <a href="https://698329e05edb4e17cca0fda3--delightful-entremet-3224db.netlify.app/" target="_blank" class="portfolio-item-link">
+                <div class="portfolio-item reveal-text delay-1">
+                    <div class="portfolio-image-wrapper">
+                        <img src="assets/weather.png" alt="SkyCast" class="portfolio-img">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>SkyCast</h3>
+                        <p>Nowoczesna prognoza pogody</p>
+                    </div>
                 </div>
-            </div>
-            <!-- Projekt 2 -->
-            <div class="portfolio-item reveal-text delay-1">
-                <div class="portfolio-image-wrapper">
-                    <div class="portfolio-placeholder abstract-bg-2"></div>
-                </div>
-                <div class="portfolio-info">
-                    <h3>AeroSpace One</h3>
-                    <p>Zjawiskowy Landing Page</p>
-                </div>
-            </div>
+            </a>
         </div>
     </div>
 </section>
