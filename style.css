@@ -1,0 +1,263 @@
+/* 
+ * NEXGEN - Premium Agency Stylesheet
+ * Projekt wzorowany na Apple i liderach technologii
+ */
+
+:root {
+    /* Paleta kolorów - Premium Dark Mode */
+    --bg-color: #000000;
+    --text-primary: #f5f5f7;  /* Kolor tekstu używany przez Apple */
+    --text-secondary: #86868b;
+    --accent-color: #0071e3; /* Niebieski Apple */
+    --accent-gradient: linear-gradient(135deg, #0071e3 0%, #4facfe 100%);
+    --glass-bg: rgba(0, 0, 0, 0.72);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    
+    /* Typografia i odstępy */
+    --font-main: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --nav-height: 80px;
+}
+
+/* Podstawowy Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Płynne przewijanie do kotwic */
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.5;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Container (Konteneryzacja treści) --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+/* --- Typografia --- */
+h1, h2, h3 {
+    font-weight: 600;
+    letter-spacing: -0.04em; /* Ciasny spacing dla nowoczesnego efektu */
+}
+
+.text-gradient {
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* --- Header & Nawigacja (Glassmorphism) --- */
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--nav-height);
+    background: var(--glass-bg);
+    backdrop-filter: saturate(180%) blur(20px); /* Efekt matowego szkła à la Apple */
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--glass-border);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+}
+
+.main-nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+/* --- Przyciski (Buttons) --- */
+.btn-primary {
+    background-color: var(--text-primary);
+    color: var(--bg-color) !important;
+    padding: 0.7rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05); /* Prosty efekt grow */
+    box-shadow: 0 10px 20px rgba(255,255,255,0.1);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--text-primary);
+    padding: 0.7rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid var(--glass-border);
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* --- Hero Section --- */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: var(--nav-height);
+    position: relative;
+}
+
+/* Rozmyty gradient w tle dla efektu WOW */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(0,113,227,0.15) 0%, rgba(0,0,0,0) 70%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.hero-title {
+    font-size: clamp(3rem, 8vw, 6rem); /* Responsywny gigantyczny nagłówek */
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    font-weight: 300;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* --- Stopka --- */
+.main-footer {
+    padding: 6rem 0 3rem;
+    background-color: #050505;
+    border-top: 1px solid var(--glass-border);
+    text-align: center;
+}
+
+.footer-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-info p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.footer-bottom {
+    margin-top: 5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--glass-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.social-links a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--text-primary);
+}
+
+/* --- Klasy Animacji (Do aktywacji przzez JS) --- */
+.reveal-text {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-text.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.delay-1 { transition-delay: 0.15s; }
+.delay-2 { transition-delay: 0.3s; }
+.delay-3 { transition-delay: 0.45s; }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .main-nav {
+        display: none; /* Uproszczenie pod mobile - w pełnej wersji dodalibyśmy hamburger menu */
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
